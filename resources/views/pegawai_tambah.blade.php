@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-        <title>UTS 6B D4 Teknik Informatika</title>
+        <title>UTS 6C D4 Teknik Informatika</title>
     </head>
     <body>
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Data Pegawai - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Getar Jagat Dewantara</a>
+                    CRUD Data Kendaraan - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Hafizh Umar Syafiqh</a>
                 </div>
                 <div class="card-body">
                     <a href="/pegawai" class="btn btn-primary">Kembali</a>
@@ -22,7 +22,7 @@
                         {{ csrf_field() }}
 
                         <div class="form-group">
-                            <label>NIP</label>
+                            <label>Nomor Polisi</label>
                             <input type="integer" name="nip" class="form-control" placeholder="Masukan nip pegawai">
  
                             @if($errors->has('nip'))
@@ -34,7 +34,7 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Nama</label>
+                            <label>Merk</label>
                             <input type="text" name="nama" class="form-control" placeholder="Masukan nama pegawai">
  
                             @if($errors->has('nama'))
@@ -46,7 +46,7 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Alamat</label>
+                            <label>Tipe</label>
                             <textarea name="alamat" class="form-control" placeholder="Masukan alamat pegawai"></textarea>
  
                              @if($errors->has('alamat'))

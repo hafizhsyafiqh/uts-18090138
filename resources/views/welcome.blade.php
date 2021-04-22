@@ -20,7 +20,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Surat<span>Keluar.</span></a></div>
+            <div class="logo"><a href="#">Data<span>Kendaraan.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="https://utspegawai.herokuapp.com/pegawai" class="menu-btn">Surat Keluar</a></li>
@@ -37,7 +37,7 @@
           <div class="row">
             <div class="home-content">
                 <div class="text-1">Name </div>
-                <div class="text-2">Revan Febriansyah</div>
+                <div class="text-2">Hafizh Umar Syafiqh</div>
                 <div class="text-3"><span class="typing"></span></div>
                 <a href="https://utspegawai.herokuapp.com/pegawai">Start</a>
             </div>
@@ -48,7 +48,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="#">Getar Jagat Dewantara</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <span>Created By <a href="#">Hafizh Umar Syafiqh</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
