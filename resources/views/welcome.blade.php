@@ -23,7 +23,7 @@
             <div class="logo"><a href="#">Data<span>Kendaraan.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="https://utspegawai.herokuapp.com/pegawai" class="menu-btn">Surat Keluar</a></li>
+                <li><a href="https://utspegawai.herokuapp.com/pegawai" class="menu-btn">Data</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -36,7 +36,7 @@
       <div class="max-width">
           <div class="row">
             <div class="home-content">
-                <div class="text-1">Name </div>
+                <div class="text-1">hi everyone, it's me</div>
                 <div class="text-2">Hafizh Umar Syafiqh</div>
                 <div class="text-3"><span class="typing"></span></div>
                 <a href="https://utspegawai.herokuapp.com/pegawai">Start</a>
