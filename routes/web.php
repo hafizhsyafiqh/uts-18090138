@@ -14,12 +14,12 @@ use App\Http\Controllers\PegawaiController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/pegawai', [PegawaiController::class, 'index']);
-Route::get('/pegawai/tambah', [PegawaiController::class, 'tambah']);
-Route::post('/pegawai/store', [PegawaiController::class, 'store']);
-Route::get('/pegawai/edit/{id}', [PegawaiController::class, 'edit']);
-Route::put('/pegawai/update/{id}', [PegawaiController::class, 'update']);
-Route::get('/pegawai/hapus/{id}', [PegawaiController::class, 'delete']);
+Route::get('/nopol', [PegawaiController::class, 'index']);
+Route::get('/nopol/tambah', [PegawaiController::class, 'tambah']);
+Route::post('/nopol/store', [PegawaiController::class, 'store']);
+Route::get('/nopol/edit/{id}', [PegawaiController::class, 'edit']);
+Route::put('/nopol/update/{id}', [PegawaiController::class, 'update']);
+Route::get('/nopol/hapus/{id}', [PegawaiController::class, 'delete']);
 // Route::get('/pegawai', 'PegawaiController@index');
 Route::get('/', function () {
     return view('welcome');
