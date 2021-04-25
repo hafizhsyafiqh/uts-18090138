@@ -30,6 +30,7 @@
                         <tbody>
                             @foreach($pegawai as $p)
                             <tr>
+                                <td>{{ $p->nip }}</td>
                                 <td>{{ $p->nama }}</td>
                                 <td>{{ $p->alamat }}</td>
                                 <td>
