@@ -13,7 +13,7 @@
                     CRUD Data Kendaraan - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Hafizh Umar Syafiqh</a>
                 </div>
                 <div class="card-body">
-                    <a href="/pegawai" class="btn btn-primary">Kembali</a>
+                    <a href="/nopol" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     
