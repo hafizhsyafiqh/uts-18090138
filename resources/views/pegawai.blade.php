@@ -16,7 +16,7 @@
             </div>
 
                 <div class="card-body">
-                    <a href="/nopol/tambah" class="btn btn-dark">Input Data Kendaraan</a>                    <a href="/" class="btn btn-primary">Kembali</a>
+                    <a href="/nopol/tambah" class="btn btn-dark">Input Data Kendaraan</a>                    <a href="/nopol" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     <table class="table table-bordered table-hover table-striped">
