@@ -17,7 +17,7 @@
                     <br/>
                     <br/>
                     
-                    <form method="post" action="/nopol/store">
+                    <form method="post" action="/nopol">
  
                         {{ csrf_field() }}
 
