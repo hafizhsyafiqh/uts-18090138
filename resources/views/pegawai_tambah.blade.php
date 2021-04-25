@@ -23,7 +23,7 @@
 
                         <div class="form-group">
                             <label>Nomor Polisi</label>
-                            <input type="integer" name="nip" class="form-control" placeholder="Masukan nip pegawai">
+                            <input type="integer" name="nip" class="form-control" placeholder="Masukan nomor polisii">
  
                             @if($errors->has('nip'))
                                 <div class="text-danger">
@@ -35,7 +35,7 @@
  
                         <div class="form-group">
                             <label>Merk</label>
-                            <input type="text" name="nama" class="form-control" placeholder="Masukan nama pegawai">
+                            <input type="text" name="nama" class="form-control" placeholder="Masukan merk kendaraan">
  
                             @if($errors->has('nama'))
                                 <div class="text-danger">
@@ -47,7 +47,7 @@
  
                         <div class="form-group">
                             <label>Tipe</label>
-                            <textarea name="alamat" class="form-control" placeholder="Masukan alamat pegawai"></textarea>
+                            <textarea name="alamat" class="form-control" placeholder="Masukan tipe kendaraan"></textarea>
  
                              @if($errors->has('alamat'))
                                 <div class="text-danger">
